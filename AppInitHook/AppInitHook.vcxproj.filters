@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="mhook">
+      <UniqueIdentifier>{f8f247fe-0c40-40d4-8703-970b7ba1c8d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mhook\disasm-lib">
+      <UniqueIdentifier>{3a79f823-4b3d-4294-86e0-1aff1ef2d92b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mhook\hook-lib">
+      <UniqueIdentifier>{0bdf0597-72e1-4a96-ba98-fa91cbdf1cda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{87ff30e7-4c8d-43fc-89df-35268651bb0a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="mhook\disasm-lib\cpu.c">
+      <Filter>mhook\disasm-lib</Filter>
+    </ClCompile>
+    <ClCompile Include="mhook\disasm-lib\disasm.c">
+      <Filter>mhook\disasm-lib</Filter>
+    </ClCompile>
+    <ClCompile Include="mhook\disasm-lib\disasm_x86.c">
+      <Filter>mhook\disasm-lib</Filter>
+    </ClCompile>
+    <ClCompile Include="mhook\disasm-lib\misc.c">
+      <Filter>mhook\disasm-lib</Filter>
+    </ClCompile>
+    <ClCompile Include="mhook\mhook-lib\mhook.cpp">
+      <Filter>mhook\hook-lib</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="mhook\disasm-lib\cpu.h">
+      <Filter>mhook\disasm-lib</Filter>
+    </ClInclude>
+    <ClInclude Include="mhook\disasm-lib\disasm.h">
+      <Filter>mhook\disasm-lib</Filter>
+    </ClInclude>
+    <ClInclude Include="mhook\disasm-lib\disasm_x86.h">
+      <Filter>mhook\disasm-lib</Filter>
+    </ClInclude>
+    <ClInclude Include="mhook\disasm-lib\disasm_x86_tables.h">
+      <Filter>mhook\disasm-lib</Filter>
+    </ClInclude>
+    <ClInclude Include="mhook\disasm-lib\misc.h">
+      <Filter>mhook\disasm-lib</Filter>
+    </ClInclude>
+    <ClInclude Include="mhook\mhook-lib\mhook.h">
+      <Filter>mhook\hook-lib</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>main</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
